@@ -1,0 +1,12 @@
+footer{
+    text-align: center;
+    font-family: var(--fonte-bold);
+    font-size: 15px;
+    padding: 5px;
+    background-color: #272727;
+}
+
+.link-footer{
+    color: #22D4FD;
+    text-decoration: none;
+}

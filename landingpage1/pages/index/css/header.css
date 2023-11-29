@@ -1,0 +1,25 @@
+/*HEADER*/
+body{
+    height: 100vh;
+    background-color: black;
+    color: white;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    font-family: var(--fonte-bold);
+    padding: 15px;
+    background-color: #272727;
+}
+
+.links-cabecalho{
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+}
+
+header  a {
+    text-decoration: none;
+    color: white;
+}
