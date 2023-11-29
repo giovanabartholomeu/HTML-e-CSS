@@ -5,6 +5,7 @@ main{
     display: flex;
     align-items: center;
     justify-content: space-between;
+    gap: 82px;
 }
 
 section{
@@ -16,16 +17,16 @@ section{
 
 h1{
     font-family: var(--fonte-bold);
-    font-size: 46px;
+    font-size: 2.87rem;
 }
 
 strong{
-    color: #22D4FD;
+    color: var(--cor-azul);
 }
 
 p{
     font-family: var(--fonte-regular);
-    font-size: 20px;
+    font-size: 1.25rem;
 }
 
 h2{
@@ -46,17 +47,17 @@ div{
     gap: 16px;
     color: white;
     text-decoration: none;
-    border: 2px solid #22D4FD;
+    border: 2px solid var(--cor-azul);
     border-radius: 64px 48px 16px 96px;
     width: 280px;
     padding: 20px 0px;
     text-align: center;
     font-family: var(--fonte-bold);
-    font-size: 15px;
+    font-size: 1rem;
 }
 
 .botao:hover{
-    background-color: #272727;
+    background-color: var(--cor-cinza);
     transition: 0.5s;
 }
 

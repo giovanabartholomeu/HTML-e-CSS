@@ -10,7 +10,7 @@ header{
     justify-content: space-between;
     font-family: var(--fonte-bold);
     padding: 15px;
-    background-color: #272727;
+    background-color: var(--cor-cinza);
 }
 
 .links-cabecalho{

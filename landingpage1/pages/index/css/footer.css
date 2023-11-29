@@ -1,12 +1,12 @@
 footer{
     text-align: center;
-    font-family: var(--fonte-bold);
-    font-size: 15px;
+    font-family: var(--fonte-regular);
+    font-size: 1rem;
     padding: 5px;
-    background-color: #272727;
+    background-color: var(--cor-cinza);
 }
 
 .link-footer{
-    color: #22D4FD;
+    color: var(--cor-azul);
     text-decoration: none;
 }
