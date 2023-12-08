@@ -1,0 +1,29 @@
+.topicos{
+    background-image: linear-gradient(to bottom, #002F52,#326589);
+    text-align: center;
+}
+
+.topicos__titulo{
+    color: white;
+    font-family: var(--fonte-bold);
+    padding: 1rem 0;
+
+}
+
+.topicos__links{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    padding: 0.5rem;
+}
+
+.topicos__links a {
+    color: white;
+    padding: 1rem;
+    border-radius: 10px;
+    background-color: var(--cor-laranja);
+    text-decoration: none;
+    font-family: var(--fonte-bold);
+
+}

@@ -1,0 +1,29 @@
+body{
+    height: 100vh;
+    background-color: #fadbcd;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+h2{
+    font-family: var(--fonte-bold);
+    color: var(--cor-laranjaescuro);
+    margin: 30px;
+}
+
+header a {
+    margin: 30px;
+    text-decoration: none;
+    font-family: var(--fonte-bold);
+    color: white;
+}
+
+.imgcabecalho{
+    position: absolute;
+    height:20%;
+    width: 100%;
+}

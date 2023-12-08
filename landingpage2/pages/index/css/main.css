@@ -1,0 +1,58 @@
+main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0% 10% 0% 10%;
+    gap: 30px;
+}
+
+section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+    padding: 10% 10% 4% 10%;
+}
+
+h1{
+    font-family: var(--fonte-bold);
+    font-size: 2.5rem;
+}
+
+strong{
+    color: var(--cor-laranjaescuro);
+}
+
+p{
+    font-family: var(--fonte-regular);
+    font-size: 1rem;
+    line-height: 28px;
+}
+
+h4{
+    text-align: center;
+    font-family: var(--fonte-regular);
+    color: var(--cor-laranjaescuro);
+}
+
+input{
+    width: 350px;
+    height: 25px;
+
+}
+button{
+    text-align: center;
+    width: 30%;
+    padding: 15px 30px;
+    border-radius: 10px 5px ;
+    font-family: var(--fonte-bold);
+    color: white;
+    background-color: var(--cor-laranjaescuro);
+    border: 1px solid var(--cor-laranjaescuro);
+}
+
+button:hover{
+    background-color: white;
+    color: var(--cor-laranjaescuro);
+    transition: 0.5s;
+}

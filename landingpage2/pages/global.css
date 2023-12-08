@@ -1,0 +1,26 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; 
+}
+
+:root{
+    --cor-laranja: #FF9A6C;
+    --cor-laranjaescuro: #FF725E;
+    --cor-cinza:#263138;
+
+
+    --fonte-regular: 'Montserrat-Regular';
+    --fonte-bold: 'Montserrat-Bold';
+}
+
+
+@font-face {
+    font-family:'Montserrat-Regular';
+    src: url(../media/Montserrat-Regular.ttf);
+}
+
+@font-face {
+    font-family:'Montserrat-Bold';
+    src: url(../media/Montserrat-SemiBold.ttf);
+}

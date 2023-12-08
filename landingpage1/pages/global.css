@@ -23,9 +23,3 @@
     font-family:'Montserrat-Bold';
     src: url(../media/Montserrat-SemiBold.ttf);
 }
-
-@media (max-width:1200px){
-    main{
-        flex-direction: column-reverse;
-    }
-}

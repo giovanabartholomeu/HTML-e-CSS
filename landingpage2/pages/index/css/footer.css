@@ -1,0 +1,12 @@
+footer{
+    background-color: var(--cor-laranjaescuro);
+    color: white;
+    font-family: var(--fonte-regular);
+    text-align: center;
+    padding:  0.5%;
+}
+
+footer a {
+    text-decoration: none;
+    color: black;
+}
